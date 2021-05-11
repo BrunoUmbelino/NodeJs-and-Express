@@ -1,0 +1,24 @@
+{
+  "name": "node-and-express",
+  "version": "1.0.0",
+  "description": "Code produced in the course  - Node.js and Express.js - made by FreeCodeCamp",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoUmbelino/NodeJs-and-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoUmbelino/NodeJs-and-Express/issues"
+  },
+  "homepage": "https://github.com/BrunoUmbelino/NodeJs-and-Express#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "lodash": "^4.17.21"
+  }
+}

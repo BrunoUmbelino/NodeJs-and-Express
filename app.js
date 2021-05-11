@@ -1,18 +1,7 @@
-const http = require("http");
+const _ = require('lodash')
 
-const server = http.createServer((req, res) => {
-  if (req.url === "/") {
-    res.write("Welcome to our home page");
-    res.end();
-  }
-  if (req.url === "/about") {
-    res.end("Same history for this think");
-    res.end(`
-  <h1>What!</h1>
-    <p>This is a paragraph</p>
-    <a href="/">back home</a>
-  `);
-  }
-});
+const items = [1, [2, [3, [4]]]]
 
-server.listen(5000);
+const newItems = _.flattenDeep(items)
+
+console.log(newItems);
